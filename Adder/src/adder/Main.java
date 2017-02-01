@@ -13,8 +13,12 @@ public class Main {
 
     private static int addArguments(String[] args) {
         int sum = 0;
-        for (String arg : args)
-            sum += Integer.valueOf(arg);
+        if(args.length < 1)
+            return 0;
+        else if (args[0].equals("-"))
+        else
+            for (String arg : args)
+                sum += Integer.valueOf(arg);
         return sum;
     }
 }
