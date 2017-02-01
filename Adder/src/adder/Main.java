@@ -16,6 +16,8 @@ public class Main {
         if(args.length < 1)
             return 0;
         else if (args[0].equals("-"))
+            for (int i = 1; i < args.length; i++)
+                sum -= Integer.valueOf(args[i]);
         else
             for (String arg : args)
                 sum += Integer.valueOf(arg);
