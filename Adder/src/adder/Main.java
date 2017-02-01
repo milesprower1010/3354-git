@@ -4,10 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+            if(args.length == 0){
+                System.out.println("Please provide some integers to add");
+                return;
+            }
             int result = addArguments(args);
             System.out.println(result);
-        } catch (Exception e) {
-            System.err.println("Please provide a number of integers to add");
+        } catch (NumberFormatException e) {
+            System.err.println("Please provide only integers to add");
         }
     }
 
