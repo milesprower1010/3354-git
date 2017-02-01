@@ -1,0 +1,6 @@
+A) 7
+B) Tue Jan 24 22:28:11 2017
+C) Log prints a complete record of a branch's history of commits, where status prints a list of every file that git is not ignoring that has changes in the local repository.
+D) An untracked file is one that is entirely new, and has never been added to the repo's tracking system before. An unstaged file is one that is tracked by the system, but has changes that are unsaved.
+E) Checkout sets the HEAD to the specified branch. Reset sets both the HEAD and the MASTER to the specified commit.
+F) git will complain that there are uncommited changes, and fail to do anything.
